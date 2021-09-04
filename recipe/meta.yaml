@@ -1,5 +1,5 @@
 {% set name = "django-stubs-ext" %}
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-stubs-ext-{{ version }}.tar.gz
-  sha256: c14f297835a42c1122421ec7e2d06579996b29d33b8016002762afa5d78863af
+  sha256: 037d9ab39f15eb172d46a6dc9f066d097efe912695562b2c45debe06455c23cb
 
 build:
   number: 0
