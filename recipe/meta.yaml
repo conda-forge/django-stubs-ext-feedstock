@@ -34,6 +34,7 @@ test:
 
 about:
   home: https://github.com/typeddjango/django-stubs
+  dev_url: https://github.com/typeddjango/django-stubs/tree/master/django_stubs_ext
   summary: Monkey-patching and extensions for django-stubs
   license: BSD-3-Clause
   license_file: LICENSE.txt
