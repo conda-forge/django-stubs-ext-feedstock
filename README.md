@@ -9,6 +9,8 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-stubs-ex
 
 Summary: Monkey-patching and extensions for django-stubs
 
+Development: https://github.com/typeddjango/django-stubs/tree/master/django_stubs_ext
+
 Current build status
 ====================
 
