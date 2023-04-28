@@ -25,12 +25,16 @@ requirements:
     - typing-extensions
 
 test:
+  source_files:
+    - tests
   imports:
     - django_stubs_ext
   commands:
     - pip check
+    - pytest -vvv --capture=tee-sys tests
   requires:
     - pip
+    - pytest
 
 about:
   home: https://github.com/typeddjango/django-stubs
