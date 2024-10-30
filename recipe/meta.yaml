@@ -23,7 +23,7 @@ requirements:
   run:
     - django
     - python >=3.8
-    - typing-extensions
+    - typing_extensions
 
 test:
   source_files:
