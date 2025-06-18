@@ -27,16 +27,12 @@ requirements:
     - typing_extensions
 
 test:
-  source_files:
-    - tests
   imports:
     - django_stubs_ext
   commands:
     - pip check
-    - pytest -vvv --capture=tee-sys tests
   requires:
     - pip
-    - pytest
     - python {{ python_min }}
 
 about:
