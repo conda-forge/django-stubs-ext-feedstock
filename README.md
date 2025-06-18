@@ -9,7 +9,7 @@ Package license: BSD-3-Clause
 
 Summary: Monkey-patching and extensions for django-stubs
 
-Development: https://github.com/typeddjango/django-stubs/tree/master/django_stubs_ext
+Development: https://github.com/typeddjango/django-stubs/tree/master/ext
 
 Current build status
 ====================
