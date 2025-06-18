@@ -20,7 +20,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
-    - setuptools
+    - hatchling
   run:
     - django
     - python >={{ python_min }}
@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://github.com/typeddjango/django-stubs
-  dev_url: https://github.com/typeddjango/django-stubs/tree/master/django_stubs_ext
+  dev_url: https://github.com/typeddjango/django-stubs/tree/master/ext
   summary: Monkey-patching and extensions for django-stubs
   license: BSD-3-Clause
   license_file: LICENSE.txt
