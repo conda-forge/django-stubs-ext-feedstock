@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: django-stubs-ext
   version: "5.2.6"
-  python_min: 3.10
 
 package:
   name: ${{ name|lower }}
@@ -22,7 +21,7 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    - hatchling
+    - uv-build >=0.8.22,<0.9.0
   run:
     - django
     - python >=${{ python_min }}
