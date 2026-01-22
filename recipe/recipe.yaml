@@ -21,9 +21,7 @@ requirements:
   host:
     - pip
     - python ${{ python_min }}.*
-    # I think there's a typo upstream
-    # - uv_build >=0.9.9,<0.10.0
-    - uv_build >=0.9.0,<0.10.0
+    - uv-build >=0.9.9,<0.10.0
   run:
     - django
     - python >=${{ python_min }}
