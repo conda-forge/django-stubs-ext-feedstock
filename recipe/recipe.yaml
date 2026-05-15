@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: django-stubs-ext
-  version: "6.0.3"
+  version: "6.0.4"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 3307d42132bc295d5744de6276bc5fdf6896efc70f891e21c0ae8bdf529d2762
+  sha256: ff21f7b4362928b56e18cda0595f296e33c665f3019f4e3e4231977385e76cac
 
 build:
   number: 0
